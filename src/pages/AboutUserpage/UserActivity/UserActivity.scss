@@ -1,0 +1,15 @@
+@import "/src/variables";
+
+.content__user-activity {
+    margin: 50px 0;
+
+    .user-activity {
+        &__buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+    }
+}

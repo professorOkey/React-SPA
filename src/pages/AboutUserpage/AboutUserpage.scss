@@ -1,0 +1,13 @@
+@import"/src/variables";
+
+.user-about {
+    width: fit-content;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid $textColor;
+    border-radius: 10px;
+}
